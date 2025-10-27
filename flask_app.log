@@ -1,0 +1,104 @@
+2025-10-12 10:39:28,665 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.209.195.70:5000
+2025-10-12 10:39:28,666 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-12 10:39:28,670 - INFO -  * Restarting with stat
+2025-10-12 10:39:30,021 - WARNING -  * Debugger is active!
+2025-10-12 10:39:30,023 - INFO -  * Debugger PIN: 529-299-661
+2025-10-12 10:39:35,919 - INFO - 127.0.0.1 - - [12/Oct/2025 10:39:35] "GET / HTTP/1.1" 200 -
+2025-10-12 10:39:36,726 - INFO - 127.0.0.1 - - [12/Oct/2025 10:39:36] "[36mGET /static/2.jpg HTTP/1.1[0m" 304 -
+2025-10-12 10:39:36,728 - INFO - 127.0.0.1 - - [12/Oct/2025 10:39:36] "[36mGET /static/1.jpg HTTP/1.1[0m" 304 -
+2025-10-12 10:39:36,737 - INFO - 127.0.0.1 - - [12/Oct/2025 10:39:36] "[36mGET /static/3.jpg HTTP/1.1[0m" 304 -
+2025-10-12 10:39:36,747 - INFO - 127.0.0.1 - - [12/Oct/2025 10:39:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-12 10:39:36,748 - INFO - 127.0.0.1 - - [12/Oct/2025 10:39:36] "[36mGET /static/4.jpg HTTP/1.1[0m" 304 -
+2025-10-12 10:39:36,762 - INFO - 127.0.0.1 - - [12/Oct/2025 10:39:36] "[36mGET /static/5.jpg HTTP/1.1[0m" 304 -
+2025-10-12 10:39:36,882 - INFO - 127.0.0.1 - - [12/Oct/2025 10:39:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-12 10:39:37,998 - INFO - 127.0.0.1 - - [12/Oct/2025 10:39:37] "GET /create HTTP/1.1" 200 -
+2025-10-12 10:39:38,033 - INFO - 127.0.0.1 - - [12/Oct/2025 10:39:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-12 10:39:38,034 - INFO - 127.0.0.1 - - [12/Oct/2025 10:39:38] "[36mGET /static/css/create.css HTTP/1.1[0m" 304 -
+2025-10-12 10:40:13,186 - INFO - --- Processing new job: 159904ed-571f-472b-8cc5-5f85d2af7913 ---
+2025-10-12 10:40:13,188 - INFO - Attempting to generate audio for '159904ed-571f-472b-8cc5-5f85d2af7913'.
+2025-10-12 10:40:13,281 - INFO - Generating audio for '159904ed-571f-472b-8cc5-5f85d2af7913' with text: yo yi yo i yo yi yo yi yo yi ja ja ja...
+2025-10-12 10:40:15,473 - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/EXAVITQu4vr4xnSDxMaL?output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2025-10-12 10:40:15,479 - INFO - C:\Users\PRATHAMESH\OneDrive\Desktop\video\user_uploads\159904ed-571f-472b-8cc5-5f85d2af7913\audio.mp3: A new audio file was saved successfully!
+2025-10-12 10:40:15,480 - INFO - Creating reel for '159904ed-571f-472b-8cc5-5f85d2af7913'.
+2025-10-12 10:40:20,848 - INFO - Reel created successfully: C:\Users\PRATHAMESH\OneDrive\Desktop\video\static\reels\159904ed-571f-472b-8cc5-5f85d2af7913.mp4
+2025-10-12 10:40:20,849 - INFO - Creating thumbnail for '159904ed-571f-472b-8cc5-5f85d2af7913'.
+2025-10-12 10:40:21,202 - INFO - Thumbnail created successfully: C:\Users\PRATHAMESH\OneDrive\Desktop\video\static\thumbnails\159904ed-571f-472b-8cc5-5f85d2af7913.jpg
+2025-10-12 10:40:21,202 - INFO - --- Successfully finished processing: 159904ed-571f-472b-8cc5-5f85d2af7913 ---
+2025-10-12 10:40:21,209 - INFO - Cleaned up temporary directory: C:\Users\PRATHAMESH\OneDrive\Desktop\video\user_uploads\159904ed-571f-472b-8cc5-5f85d2af7913
+2025-10-12 10:40:21,214 - INFO - 127.0.0.1 - - [12/Oct/2025 10:40:21] "POST /create HTTP/1.1" 200 -
+2025-10-12 10:40:23,237 - INFO - 127.0.0.1 - - [12/Oct/2025 10:40:23] "[33mGET /status/159904ed-571f-472b-8cc5-5f85d2af7913 HTTP/1.1[0m" 404 -
+2025-10-12 10:41:12,530 - INFO - 127.0.0.1 - - [12/Oct/2025 10:41:12] "GET /gallery HTTP/1.1" 200 -
+2025-10-12 10:41:12,548 - INFO - 127.0.0.1 - - [12/Oct/2025 10:41:12] "GET /static/thumbnails/159904ed-571f-472b-8cc5-5f85d2af7913.jpg HTTP/1.1" 200 -
+2025-10-12 10:41:12,548 - INFO - 127.0.0.1 - - [12/Oct/2025 10:41:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-12 10:41:12,551 - INFO - 127.0.0.1 - - [12/Oct/2025 10:41:12] "GET /static/css/gallery.css HTTP/1.1" 200 -
+2025-10-12 10:41:14,482 - INFO - 127.0.0.1 - - [12/Oct/2025 10:41:14] "GET /create HTTP/1.1" 200 -
+2025-10-12 10:41:14,512 - INFO - 127.0.0.1 - - [12/Oct/2025 10:41:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-12 10:41:14,513 - INFO - 127.0.0.1 - - [12/Oct/2025 10:41:14] "[36mGET /static/css/create.css HTTP/1.1[0m" 304 -
+2025-10-12 10:41:49,364 - INFO - --- Processing new job: 1346e9e3-a05c-4244-8ca8-b7601f70f0fb ---
+2025-10-12 10:41:49,366 - INFO - Attempting to generate audio for '1346e9e3-a05c-4244-8ca8-b7601f70f0fb'.
+2025-10-12 10:41:49,428 - INFO - Generating audio for '1346e9e3-a05c-4244-8ca8-b7601f70f0fb' with text: ye g ye ye maina maina...
+2025-10-12 10:41:50,292 - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV?output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2025-10-12 10:41:50,296 - INFO - C:\Users\PRATHAMESH\OneDrive\Desktop\video\user_uploads\1346e9e3-a05c-4244-8ca8-b7601f70f0fb\audio.mp3: A new audio file was saved successfully!
+2025-10-12 10:41:50,297 - INFO - Creating reel for '1346e9e3-a05c-4244-8ca8-b7601f70f0fb'.
+2025-10-12 10:41:52,727 - INFO - Reel created successfully: C:\Users\PRATHAMESH\OneDrive\Desktop\video\static\reels\1346e9e3-a05c-4244-8ca8-b7601f70f0fb.mp4
+2025-10-12 10:41:52,727 - INFO - Creating thumbnail for '1346e9e3-a05c-4244-8ca8-b7601f70f0fb'.
+2025-10-12 10:41:53,016 - INFO - Thumbnail created successfully: C:\Users\PRATHAMESH\OneDrive\Desktop\video\static\thumbnails\1346e9e3-a05c-4244-8ca8-b7601f70f0fb.jpg
+2025-10-12 10:41:53,017 - INFO - --- Successfully finished processing: 1346e9e3-a05c-4244-8ca8-b7601f70f0fb ---
+2025-10-12 10:41:53,024 - INFO - Cleaned up temporary directory: C:\Users\PRATHAMESH\OneDrive\Desktop\video\user_uploads\1346e9e3-a05c-4244-8ca8-b7601f70f0fb
+2025-10-12 10:41:53,028 - INFO - 127.0.0.1 - - [12/Oct/2025 10:41:53] "POST /create HTTP/1.1" 200 -
+2025-10-12 10:41:55,848 - INFO - 127.0.0.1 - - [12/Oct/2025 10:41:55] "[33mGET /status/1346e9e3-a05c-4244-8ca8-b7601f70f0fb HTTP/1.1[0m" 404 -
+2025-10-12 11:18:58,706 - INFO - 127.0.0.1 - - [12/Oct/2025 11:18:58] "GET /create HTTP/1.1" 200 -
+2025-10-12 11:18:58,736 - INFO - 127.0.0.1 - - [12/Oct/2025 11:18:58] "[36mGET /static/css/create.css HTTP/1.1[0m" 304 -
+2025-10-12 11:18:58,738 - INFO - 127.0.0.1 - - [12/Oct/2025 11:18:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-12 11:19:35,908 - INFO - --- Processing new job: 6447a38d-5389-43c4-abb7-7d2fbcbf9d49 ---
+2025-10-12 11:19:35,909 - INFO - Attempting to generate audio for '6447a38d-5389-43c4-abb7-7d2fbcbf9d49'.
+2025-10-12 11:19:35,942 - INFO - Generating audio for '6447a38d-5389-43c4-abb7-7d2fbcbf9d49' with text: yete nachyla nachaly yeteka...
+2025-10-12 11:19:37,186 - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/EXAVITQu4vr4xnSDxMaL?output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2025-10-12 11:19:37,430 - INFO - C:\Users\PRATHAMESH\OneDrive\Desktop\video\user_uploads\6447a38d-5389-43c4-abb7-7d2fbcbf9d49\audio.mp3: A new audio file was saved successfully!
+2025-10-12 11:19:37,431 - INFO - Creating reel for '6447a38d-5389-43c4-abb7-7d2fbcbf9d49'.
+2025-10-12 11:19:40,161 - INFO - Reel created successfully: C:\Users\PRATHAMESH\OneDrive\Desktop\video\static\reels\6447a38d-5389-43c4-abb7-7d2fbcbf9d49.mp4
+2025-10-12 11:19:40,161 - INFO - Creating thumbnail for '6447a38d-5389-43c4-abb7-7d2fbcbf9d49'.
+2025-10-12 11:19:40,338 - INFO - Thumbnail created successfully: C:\Users\PRATHAMESH\OneDrive\Desktop\video\static\thumbnails\6447a38d-5389-43c4-abb7-7d2fbcbf9d49.jpg
+2025-10-12 11:19:40,339 - INFO - --- Successfully finished processing: 6447a38d-5389-43c4-abb7-7d2fbcbf9d49 ---
+2025-10-12 11:19:40,342 - INFO - Cleaned up temporary directory: C:\Users\PRATHAMESH\OneDrive\Desktop\video\user_uploads\6447a38d-5389-43c4-abb7-7d2fbcbf9d49
+2025-10-12 11:19:40,345 - INFO - 127.0.0.1 - - [12/Oct/2025 11:19:40] "POST /create HTTP/1.1" 200 -
+2025-10-12 11:19:42,295 - INFO - 127.0.0.1 - - [12/Oct/2025 11:19:42] "GET /gallery HTTP/1.1" 200 -
+2025-10-12 11:19:42,334 - INFO - 127.0.0.1 - - [12/Oct/2025 11:19:42] "GET /static/thumbnails/6447a38d-5389-43c4-abb7-7d2fbcbf9d49.jpg HTTP/1.1" 200 -
+2025-10-12 11:19:42,347 - INFO - 127.0.0.1 - - [12/Oct/2025 11:19:42] "GET /static/thumbnails/1346e9e3-a05c-4244-8ca8-b7601f70f0fb.jpg HTTP/1.1" 200 -
+2025-10-12 11:19:42,347 - INFO - 127.0.0.1 - - [12/Oct/2025 11:19:42] "[36mGET /static/css/gallery.css HTTP/1.1[0m" 304 -
+2025-10-12 11:19:42,352 - INFO - 127.0.0.1 - - [12/Oct/2025 11:19:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-12 11:19:42,379 - INFO - 127.0.0.1 - - [12/Oct/2025 11:19:42] "[36mGET /static/thumbnails/159904ed-571f-472b-8cc5-5f85d2af7913.jpg HTTP/1.1[0m" 304 -
+2025-10-12 11:19:44,907 - INFO - 127.0.0.1 - - [12/Oct/2025 11:19:44] "[35m[1mGET /static/reels/6447a38d-5389-43c4-abb7-7d2fbcbf9d49.mp4 HTTP/1.1[0m" 206 -
+2025-10-12 11:19:44,952 - INFO - 127.0.0.1 - - [12/Oct/2025 11:19:44] "[35m[1mGET /static/reels/6447a38d-5389-43c4-abb7-7d2fbcbf9d49.mp4 HTTP/1.1[0m" 206 -
+2025-10-12 11:19:44,987 - INFO - 127.0.0.1 - - [12/Oct/2025 11:19:44] "[35m[1mGET /static/reels/6447a38d-5389-43c4-abb7-7d2fbcbf9d49.mp4 HTTP/1.1[0m" 206 -
+2025-10-12 11:19:45,113 - INFO - 127.0.0.1 - - [12/Oct/2025 11:19:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-12 11:21:14,587 - INFO - 127.0.0.1 - - [12/Oct/2025 11:21:14] "GET /create HTTP/1.1" 200 -
+2025-10-12 11:21:14,618 - INFO - 127.0.0.1 - - [12/Oct/2025 11:21:14] "[36mGET /static/css/create.css HTTP/1.1[0m" 304 -
+2025-10-12 11:21:14,620 - INFO - 127.0.0.1 - - [12/Oct/2025 11:21:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-12 11:21:39,750 - INFO - --- Processing new job: eeddb19d-67a4-4040-8397-895a84685bbe ---
+2025-10-12 11:21:39,752 - INFO - Attempting to generate audio for 'eeddb19d-67a4-4040-8397-895a84685bbe'.
+2025-10-12 11:21:39,838 - INFO - Generating audio for 'eeddb19d-67a4-4040-8397-895a84685bbe' with text: "I Gotta Feeling" by The Black Eyed Peas, "Livin' ...
+2025-10-12 11:21:40,763 - INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/pNInz6obpgDQGcFmaJgB?output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+2025-10-12 11:21:40,860 - INFO - C:\Users\PRATHAMESH\OneDrive\Desktop\video\user_uploads\eeddb19d-67a4-4040-8397-895a84685bbe\audio.mp3: A new audio file was saved successfully!
+2025-10-12 11:21:40,861 - INFO - Creating reel for 'eeddb19d-67a4-4040-8397-895a84685bbe'.
+2025-10-12 11:21:42,739 - INFO - Reel created successfully: C:\Users\PRATHAMESH\OneDrive\Desktop\video\static\reels\eeddb19d-67a4-4040-8397-895a84685bbe.mp4
+2025-10-12 11:21:42,739 - INFO - Creating thumbnail for 'eeddb19d-67a4-4040-8397-895a84685bbe'.
+2025-10-12 11:21:42,943 - INFO - Thumbnail created successfully: C:\Users\PRATHAMESH\OneDrive\Desktop\video\static\thumbnails\eeddb19d-67a4-4040-8397-895a84685bbe.jpg
+2025-10-12 11:21:42,943 - INFO - --- Successfully finished processing: eeddb19d-67a4-4040-8397-895a84685bbe ---
+2025-10-12 11:21:42,948 - INFO - Cleaned up temporary directory: C:\Users\PRATHAMESH\OneDrive\Desktop\video\user_uploads\eeddb19d-67a4-4040-8397-895a84685bbe
+2025-10-12 11:21:42,951 - INFO - 127.0.0.1 - - [12/Oct/2025 11:21:42] "POST /create HTTP/1.1" 200 -
+2025-10-12 11:21:44,391 - INFO - 127.0.0.1 - - [12/Oct/2025 11:21:44] "GET /gallery HTTP/1.1" 200 -
+2025-10-12 11:21:44,438 - INFO - 127.0.0.1 - - [12/Oct/2025 11:21:44] "GET /static/thumbnails/eeddb19d-67a4-4040-8397-895a84685bbe.jpg HTTP/1.1" 200 -
+2025-10-12 11:21:44,438 - INFO - 127.0.0.1 - - [12/Oct/2025 11:21:44] "[36mGET /static/css/gallery.css HTTP/1.1[0m" 304 -
+2025-10-12 11:21:44,440 - INFO - 127.0.0.1 - - [12/Oct/2025 11:21:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-12 11:21:44,445 - INFO - 127.0.0.1 - - [12/Oct/2025 11:21:44] "[36mGET /static/thumbnails/6447a38d-5389-43c4-abb7-7d2fbcbf9d49.jpg HTTP/1.1[0m" 304 -
+2025-10-12 11:21:44,458 - INFO - 127.0.0.1 - - [12/Oct/2025 11:21:44] "[36mGET /static/thumbnails/1346e9e3-a05c-4244-8ca8-b7601f70f0fb.jpg HTTP/1.1[0m" 304 -
+2025-10-12 11:21:44,462 - INFO - 127.0.0.1 - - [12/Oct/2025 11:21:44] "[36mGET /static/thumbnails/159904ed-571f-472b-8cc5-5f85d2af7913.jpg HTTP/1.1[0m" 304 -
+2025-10-12 11:21:46,535 - INFO - 127.0.0.1 - - [12/Oct/2025 11:21:46] "[35m[1mGET /static/reels/eeddb19d-67a4-4040-8397-895a84685bbe.mp4 HTTP/1.1[0m" 206 -
+2025-10-12 11:21:46,623 - INFO - 127.0.0.1 - - [12/Oct/2025 11:21:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-12 11:22:03,099 - INFO - 127.0.0.1 - - [12/Oct/2025 11:22:03] "GET /create HTTP/1.1" 200 -
+2025-10-12 11:22:03,134 - INFO - 127.0.0.1 - - [12/Oct/2025 11:22:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-12 11:22:03,142 - INFO - 127.0.0.1 - - [12/Oct/2025 11:22:03] "[36mGET /static/css/create.css HTTP/1.1[0m" 304 -

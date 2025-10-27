@@ -1,0 +1,49 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.venv/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Log files
+*.log
+celery_processor.log
+flask_app.log
+processor.log
+
+# Secrets
+.env
+
+# Other
+.DS_Store
+done.txt
+failed.txt
+ffmpeg_command.txt
+sample_input_ffmpeg.txt
+template.zip
+user_uploads/
+sample_images/
+static/reels/
+static/thumbnails/
